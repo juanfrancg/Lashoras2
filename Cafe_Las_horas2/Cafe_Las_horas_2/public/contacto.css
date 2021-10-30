@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+body#fondo{
+	background-color: burlywood;
+}
+header#titulo{
+	color: maroon;
+	text-align: center;
+}
+h3{
+	color: maroon;
+}

@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+body#fondo{
+	background-color: burlywood;
+}
+h1#titulo{
+	color: maroon;
+	text-align: center;
+	font-family: arial;
+}
+article.menu{
+	color: maroon;
+	font-size: 5;
+	
+}

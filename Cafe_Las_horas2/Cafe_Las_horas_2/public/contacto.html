@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cafe las hora contacto</title>
+<link rel="stylesheet" href="contacto.css">
+</head>
+<body id="fondo">
+<header id="titulo">
+<h1>Contacto</h1>
+</header>
+<main>
+<form action="mailto:10365012@ieselgrao.org" method="POST" name="Form1" enctype="text/plain" >
+<h3>Escribe tu nombre y apellido</h3>
+<h3>Nombre:</h3>
+<input name="nombre" type="text">
+<br></br>
+<h3>Apellido:</h3>
+<input name="nombre" type="text">
+<h3>Sexo</h3>
+<input type="radio" name="gender" value="male" checked> Hombre
+<br>
+<input type="radio" name="gender" value="female"> Mujer
+<br>
+<input type="radio" name="gender" value="other"> Otro
+<h3>Edad</h3>
+<input type="number" name="quantity" min="1" max="100" step="1">
+<h3 class="1">Mensaje</h3>
+<textarea name="message" rows="10" cols="30">
+</textarea>
+<h3>Fecha y hora</h3>
+<input type="datetime-local" name="bdaytime">
+<h3>Email</h3>
+<input type="email" name="email" autocomplete="off">
+<br></br>
+<h3>Numero de Telefono:</h3>
+<input name="telefono" type="text">
+<br><br>
+<input name="Submit" type="submit" value="Enviar">
+</form>
+</main>
+</body>
+</html>

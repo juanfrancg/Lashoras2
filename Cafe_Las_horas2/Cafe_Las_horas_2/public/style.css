@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+body#fondo{
+	background-color: burlywood;
+}
+h1#titulo{
+	color: maroon;
+	text-align: center;
+	font-family: arial;
+}
+article.cafe{
+	text-align: center;
+}
+article.contacto{
+	text-align: right;
+}
